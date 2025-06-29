@@ -1,8 +1,9 @@
 variable "ami_id" {
-  type  = string
+  type = string
   description = "AMI ID of the EC2 instance"
   default = "ami-09c813fb71547fc4f"
 }
+
 
 variable "instance_type" {
     type = string
@@ -22,5 +23,4 @@ variable "sg_ids" {
 
 variable "tags" {
     type = map
-  
 }
